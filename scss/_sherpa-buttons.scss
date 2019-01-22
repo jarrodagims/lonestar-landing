@@ -17,7 +17,12 @@ input[type="submit"] {
   overflow: hidden;
   transform: translate3d(0, 0, 0);
   position: relative;
-  background: $sherpa-secondary-color;
+  background: $sherpa-brand-primary;
+
+  &.btn-lrg {
+    padding: 1em 5em;
+    font-size: 20px;
+  }
 
   &:hover,
   &:focus,

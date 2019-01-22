@@ -392,7 +392,7 @@
 }
 
 #contact-form {
-  background: #000;
+  background: $sherpa-secondary-color;
 
   @include media-breakpoint-down(md) {
     padding-top: 2em !important;

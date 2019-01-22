@@ -25,7 +25,18 @@
                     any time. Your satisfaction is our number one priority!
                 </p>
 
-                <a href="<?=SITEURL?>/contact-us/"><button class="btn btn-primary">Buy 20 acres NOW!</button></a>
+                <a href="<?=SITEURL?>/contact-us/"><button class="btn btn-primary btn-lrg">Buy 20 acres NOW!</button></a>
+            </div>
+
+            <div class="col">
+                <div id="contact-form">
+                    <?php if ($_SERVER['REMOTE_ADDR'] == '127.0.0.1') {
+                    echo do_shortcode('[contact-form-7 id="11" title="Contact Form"]');
+                    } else {
+                    echo do_shortcode('[contact-form-7 id="11" title="Contact Form"]');
+                    }
+                    ?>
+                </div>
             </div>
         </div>
     </div>
