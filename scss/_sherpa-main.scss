@@ -13,15 +13,13 @@
 #breadcrumbs {
   font-style: italic;
   @include serif();
-  color: #B1B1B2;
+  color: #b1b1b2;
   margin-top: 22px;
   margin-bottom: 25px;
 
   a {
-    color: #B1B1B2;
+    color: #b1b1b2;
   }
-
-  
 }
 
 /*
@@ -285,7 +283,7 @@ body {
         p {
           font-weight: 300;
           color: #606060;
-          font-family: 'Roboto', sans-serif;
+          font-family: "Roboto", sans-serif;
           font-size: 17px;
           line-height: 2;
 
@@ -886,18 +884,3 @@ body:not(.page-template-page-home) {
     transition: all $transitionTime ease-in-out;
   }
 }
-
-// @include media-breakpoint-up(md) {
-//   .circle {
-//     &::before {
-//       transform: scale(0);
-//       transition: all $transitionTime ease-in-out;
-//     }
-//   }
-
-//   .active .circle {
-//     &::before {
-//       transform: scale(1) translateX(-50%) translateY(-50%);
-//     }
-//   }
-// }
