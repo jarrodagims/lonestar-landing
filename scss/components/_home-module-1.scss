@@ -1,187 +1,86 @@
 .home-module-1 {
-  background: #F7F7F7;
-  padding-bottom: 2em;
-  position: relative;
+  h1 {
+    font-family: "Oswald", sans-serif;
+    color: $sherpa-secondary-color;
+    font-weight: 600;
+    font-size: 78px;
+    position: relative;
+    padding-bottom: 0.5em;
+    z-index: 0;
 
-  @include media-breakpoint-up(md) {
-    .navbar-sherpa {
-       position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
+    &::before {
+      @include gradient();
+      content: "";
+      position: absolute;
+      top: -20vh;
+      left: -50vw;
+      height: 150%;
+      z-index: -1;
+      display: block;
+      width: 150vw;
     }
-  }
 
-  .nav-link {
-    font-size: 12px;
-  }
-  
- .bg-jumbo {
-   background: url('../img/build/bg-hero.jpg') 0 0 no-repeat;
-   background-size: cover;
+    &::after {
+      content: "";
+      display: block;
+      width: 150vw;
+      height: 1px;
+      position: absolute;
+      bottom: 0;
+      left: -50vw;
+      background: $white;
+    }
 
-   @include media-breakpoint-down(md) {
-     background: none;
-
-     .navbar-sherpa {
-       display: none;
-     }
-   }
- }
-
-  ul.menu {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    margin-top: auto;
-    margin-left: 0;
-    padding-left: 0;
-    padding-top: 2em;
-    margin-bottom: 0;
-
-    > li {
+    span {
       color: $white;
-      flex: 1;
-      padding: 1.5em 2em;
-      background: rgba(255,255,255,0.19);
-      @include raleway();
-      position: relative;
-      font-size: 19px;
-      display: flex;
-      align-items: center;
-      width: 14.3%;
+      display: block;
+      margin-top: 0.25em;
+    }
 
-      &:first-child {
-        background: $sherpa-brand-primary;
-      }
+    span.large {
+      font-size: 55px;
+    }
 
-      &:last-child {
-        &::after, &::before {
-          display: none;
-        }
-      }
-
-      &::before {
-        content: '';
-        background: $sherpa-secondary-color;
-        border-radius: 50%;
-        display: block;
-        position: absolute;
-        right: -3px;
-        top: -40%;
-        width: 7px;
-        height: 7px;
-      }
-
-      &::after {
-        border-right: 1px solid $sherpa-secondary-color;
-        content: '';
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        width: 1px;
-        display: block;
-        height: 140%;
-      }
+    span.small {
+      font-size: 28px;
+      font-family: "Montserrat", sans-serif;
+      margin-top: 0.25em;
+      display: block;
     }
   }
 
-  ul.menu-secondary {
+  h2 {
+    color: $white;
+    font-family: "Oswald", sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+
+    span {
+      font-size: 28px;
+      display: block;
+      font-family: "Montserrat", sans-serif;
+    }
+  }
+
+  h3 {
     display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding-left: 0;
-    @include dropshadow();
-    background: $white;
-    margin-bottom: 0;
+    justify-content: flex-start;
+    align-items: center;
+    color: $white;
+    font-family: "Montserrat";
+    font-weight: 600;
 
-    > li {
-      padding: 4em 4em;
-      width: 14.3%;
-    }
-
-    ul {
-      padding-left: 0;
-      list-style: none;
-      list-style-type: none;
-    }
-
-    p, li {
-      font-size: 13px;
-    }
-
-    
-    li {
-      color: #c3c3c3;
-    }
-
-    > li:first-child {
-      color: #4D4D4D;
-      -webkit-box-shadow: inset -10px 0px 13px -8px rgba(0,0,0,0.1);
-      -moz-box-shadow: inset -10px 0px 13px -8px rgba(0,0,0,0.1);
-      box-shadow: inset -10px 0px 13px -8px rgba(0,0,0,0.1);
-    }
-
-
-  }
-
-  @include media-breakpoint-down(md) {
-     ul.menu-secondary {
-      display: none;
+    &::before {
+      content: "";
+      display: block;
+      width: 85px;
+      height: 85px;
+      background: url("../img/guarantee.svg") 0 0 no-repeat;
+      margin-right: 0.5em;
     }
   }
 
-  @include media-breakpoint-down(md) {
-
-       ul.menu {
-         flex-wrap: wrap;
-         text-align: center;
-         padding-top: 0;
-
-         li {
-           text-align: center;
-           color: #8D8E8E;
-           background: $white;
-           justify-content: center;
-           display: flex;
-           padding: 0 0;
-           align-items: center;
-            margin-bottom: 5px;
-            font-size: 14px;
-           
-           div {
-            @include dropshadow();
-            flex: 1;
-            width: 100%;
-            height: 100%;
-            padding: 1em 2em;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 5px;
-           border-bottom: 3px solid $sherpa-secondary-color;
-
-           }
-         }
-
-          > li:first-child {
-            width: 100%;
-            text-align: center;
-            justify-content: center;
-            background: $white;
-          }
-
-          > li {
-            width: 50%;
-            text-align: center;
-            flex: auto;
-
-
-            &::after, &::before {
-              display: none;
-            }
-          }
-       }
-    }
-
-   
+  p {
+    color: $white;
+  }
 }

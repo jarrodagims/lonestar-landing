@@ -154,6 +154,20 @@
   flex-basis: 0;
   position: relative;
 
+  a, p {
+    color: $sherpa-secondary-color;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+  }
+
+  p {
+    font-weight: 300;
+  }
+
+  a {
+    font-weight: 400;
+  }
+
   @include media-breakpoint-down(md) {
     height: 75px;
   }
@@ -176,7 +190,7 @@
 
 .top-header {
   position: relative;
-  z-index: 99;
+  z-index: 2;
   text-align: center;
   display: flex;
   padding: .5em 0;
@@ -201,7 +215,7 @@
     .container {
 //       max-width: 1770px;
       display: flex;
-      max-width: 100%;
+//       max-width: 100%;
       justify-content: space-between;
 
       align-items: center;
@@ -217,11 +231,11 @@
     }
   }
 
-   @media screen and (min-width: 1700px) {
-    .container {
-      max-width: 1770px;
-    }
-  }
+//    @media screen and (min-width: 1700px) {
+//     .container {
+//       max-width: 1770px;
+//     }
+//   }
 
  
 }
