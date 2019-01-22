@@ -19,9 +19,12 @@
 
                 <h3>Lone Star Guarantee</h3>
 
-                <p>No explanation needed, no questions asked. If you find you like a particular part of our subdivision
-                    better, we will gladly exchange your track for one that’s available so long as the prices are equal
-                    at any time. Your satisfaction is our number one priority!
+                <p>No explanation needed, no questions asked. If you find you like a <span class="br-md">particular
+                        part of our subdivision
+                        better, we will gladly exchange your <span class="br-md">track for one that’s available so long
+                            as the prices are
+                            equal
+                            at any time. <span class="br-md">Your satisfaction is our number one priority!</span></span></span>
                 </p>
 
                 <a href="<?=SITEURL?>/contact-us/"><button class="btn btn-primary btn-lrg">Buy 20 acres NOW!</button></a>
@@ -29,7 +32,7 @@
 
             </div>
 
-            <div class="col">
+            <div class="col col-md-5">
                 <div id="contact-form">
                     <div class="contact-top">
                         <p>Submit Information To View Our Available Lots</p>
@@ -82,7 +85,7 @@
 
             <div class="col">
                 <div class="extra-padding">
-                    <h2>Money back guarantee!
+                    <h2>Money back <strong>guarantee!</strong>
                         <span>
                             This is the land deal you've been waiting for!
                         </span>

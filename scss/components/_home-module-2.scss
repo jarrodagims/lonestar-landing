@@ -2,17 +2,26 @@
   overflow: hidden;
 
   .col {
-    padding-top: 250px;
+    padding-top: 280px;
+  }
+
+  a {
+    color: $sherpa-brand-primary;
   }
 
   h2 {
-    font-size: 35px;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+
+    strong {
+      color: $sherpa-brand-primary;
+    }
 
     span {
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 16px;
       display: block;
-      margin-top: 1em;
+      margin-top: .5em;
     }
   }
 
@@ -21,6 +30,10 @@
     list-style-type: none;
     padding-left: 0;
     margin-bottom: 3em;
+
+    &.columns {
+      column-count: 2;
+    }
 
     li span::before {
       content: "";
@@ -43,6 +56,10 @@
 
   .col:last-child {
     position: relative;
+
+    ul.arrows {
+      padding-left: 2.5em;
+    }
 
     .extra-padding {
       padding-left: 5em;

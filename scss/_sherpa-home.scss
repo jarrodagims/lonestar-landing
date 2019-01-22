@@ -5,3 +5,9 @@
 
   padding-bottom: 4em;
 }
+
+@include media-breakpoint-up(lg) {
+  .container {
+    max-width: 1270px;
+  }
+}

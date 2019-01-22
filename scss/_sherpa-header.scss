@@ -21,5 +21,14 @@
   }
 }
 
-.top-header {
+
+
+@include media-breakpoint-up(lg) {
+  .top-header {
+
+    a.navbar-brand {
+      position: absolute;
+      left: -234px;
+    }
+  }
 }
