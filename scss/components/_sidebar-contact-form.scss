@@ -431,13 +431,10 @@
   }
 
   @include media-breakpoint-down(md) {
-    padding-top: 2em !important;
-    margin-bottom: 0 !important;
+    padding-top: 0;
+    width: 100%;
   }
 
-  @include media-breakpoint-down(sm) {
-    margin-bottom: 3em;
-  }
 
   @include media-breakpoint-up(sm) {
     margin: 0 0 0 auto;

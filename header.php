@@ -36,14 +36,7 @@
     <p class="browsehappy">Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
     </p>
     <![endif]-->
-        <div class="d-xs-flex d-lg-none">
-            <div class="navbar-right">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="tel:9155333377">1926 Montana Ave 79903&nbsp;&nbsp;| </a></li>
-                    <li><a href="tel:9155815565">8001 N Mesa St 79932&nbsp;&nbsp;| </a></li>
-                </ul>
-            </div>
-        </div>
+
         <div class="top-header <?php if(!is_front_page()) : ?>internal<?php endif; ?>">
             <div class="container">
                 <div class="v-align row">
@@ -63,17 +56,7 @@
 
                         </div>
 
-                        <?php echo responsive_bs_menu('primary', 'left', SITENAME); ?>
                     </div>
                 </div>
             </div>
         </div>
-        <?php if(!is_front_page()) : ?>
-        <div class="container d-md-block d-none">
-            <div class="row">
-                <div class="col internal">
-                    <?php echo responsive_bs_menu('primary', 'left', SITENAME); ?>
-                </div>
-            </div>
-        </div>
-        <?php endif; ?>

@@ -23,12 +23,12 @@
 
 
 
-@include media-breakpoint-up(lg) {
-  .top-header {
 
+@media screen and (min-width: 1700px) {
+  .top-header {
     a.navbar-brand {
       position: absolute;
       left: -234px;
     }
   }
-}
+} 

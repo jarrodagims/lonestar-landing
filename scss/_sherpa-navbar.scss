@@ -170,6 +170,15 @@
 
   @include media-breakpoint-down(md) {
     height: 75px;
+
+    p, a {
+      margin-bottom: 0;
+      font-size: 16px;
+    }
+
+    p {
+      margin-right: 30px;
+    }
   }
 
   .navbar-left {
@@ -510,7 +519,6 @@
     flex: 1;
     flex-direction: row;
   }
-
 
 
   .navbar-sherpa {

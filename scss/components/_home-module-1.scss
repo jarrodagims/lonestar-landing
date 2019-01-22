@@ -72,6 +72,7 @@
     font-family: "Montserrat";
     font-weight: 600;
 
+
     &::before {
       content: "";
       display: block;
@@ -97,6 +98,48 @@
 
   .col:last-child {
     flex: 0;
+  }
+
+  @include media-breakpoint-down(md) {
+    text-align: center;
+
+    h1 {
+      font-size: 2em;
+      margin-top: 1em;
+      line-height: 1.5;
+
+      span.large {
+        font-size: .75em;
+        margin-top: 0;
+      }
+
+      span.small {
+        font-size: .5em;
+      }
+    }
+
+    h2 {
+      font-size: 1em;
+
+      span {
+        font-size: 1em;
+      }
+    }
+
+    h3 {
+      text-align: center;
+      margin: 0 auto;
+      justify-content: center;
+
+    }
+
+    .btn.btn-lrg, input[type="submit"].btn-lrg {
+      padding: 1em 2em;
+    }
+
+    p {
+      font-size: 15px;
+    }
   }
 
 
