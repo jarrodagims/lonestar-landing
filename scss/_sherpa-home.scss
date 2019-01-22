@@ -4,6 +4,10 @@
   overflow-x: hidden;
 
   padding-bottom: 4em;
+
+  @include media-breakpoint-down(md) {
+    padding-bottom: 0;
+  }
 }
 
 @include media-breakpoint-up(lg) {

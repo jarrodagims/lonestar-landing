@@ -28,11 +28,9 @@
                 </p>
 
                 <a href="<?=SITEURL?>/contact-us/"><button class="btn btn-primary btn-lrg">Buy 20 acres NOW!</button></a>
-
-
             </div>
 
-            <div class="col col-md-5">
+            <div class="col col-lg-5">
                 <div id="contact-form">
                     <div class="contact-top">
                         <p>Submit Information To View Our Available Lots</p>

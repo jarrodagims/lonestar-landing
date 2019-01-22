@@ -76,4 +76,37 @@
       z-index: -1;
     }
   }
+
+  @include media-breakpoint-down(md) {
+    .col {
+      padding-top: 2em;
+    }
+
+    .extra-padding {
+      padding-left: 15px;
+    }
+
+    .col:last-child {
+
+      text-align: center;
+
+      ul {
+        text-align: left;
+      }
+
+      &::before {
+        display: none;
+      }
+
+      .extra-padding {
+        padding-left: 15px;
+      }
+
+      ul.arrows {
+        padding-left: 0;
+      }
+    }
+
+    
+  }
 }
