@@ -1,4 +1,7 @@
 .landing-bg {
   background: url("../img/bg-landing-hero.jpg") center 0 no-repeat;
   background-size: cover;
+  overflow-x: hidden;
+
+  padding-bottom: 4em;
 }

@@ -9,6 +9,7 @@
 
   @include media-breakpoint-up(md) {
     margin-top: 45px;
+    margin-left: auto;
   }
 
   .ajax-loader {
@@ -23,7 +24,7 @@
     padding: 0 0;
 
     @include media-breakpoint-up(sm) {
-      margin: 2em auto;
+      margin: 2em auto 1em;
     }
 
     h1,
@@ -407,22 +408,10 @@
     padding: 0 0 0 0;
 
     form {
-      h4 {
-        margin-bottom: 1.5em;
-      }
-
+     
       input[type="submit"] {
         width: 144px;
         @include dropshadow();
-      }
-    }
-
-    .testimonials-widget {
-      h4 {
-        margin-bottom: 1.2em;
-      }
-      .btn {
-        width: 144px;
       }
     }
   }

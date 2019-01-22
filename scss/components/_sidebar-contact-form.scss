@@ -393,6 +393,37 @@
 
 #contact-form {
   background: $sherpa-secondary-color;
+  width: 410px;
+
+  h4 {
+    margin-bottom: 0 !important;
+  } 
+
+  .contact-top {
+    background: #5f676f;
+    margin-bottom: 0;
+    padding: 1em;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .contact-bottom {
+    background: #00133D;
+    color: $white;
+    padding: 1em;
+
+    p {
+      margin-bottom: .5em;
+    }
+
+    a {
+      color: $white;
+      font-family: 'Oswald', sans-serif;
+      font-size: 29px;
+    }
+  }
 
   @include media-breakpoint-down(md) {
     padding-top: 2em !important;
@@ -404,14 +435,8 @@
   }
 
   @include media-breakpoint-up(sm) {
-    margin: 0 0 0 0;
+    margin: 0 0 0 auto;
     padding: 0 0 0 0;
-
-    form {
-      h4 {
-        margin-bottom: 1.5em;
-      }
-    }
   }
 }
 

@@ -83,4 +83,12 @@
   p {
     color: $white;
   }
+
+  .banner {
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+  }
 }
