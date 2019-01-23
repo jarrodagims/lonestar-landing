@@ -170,6 +170,7 @@
 
   @include media-breakpoint-down(md) {
     height: 75px;
+    margin-top: 2em;
 
     p, a {
       margin-bottom: 0;
@@ -276,7 +277,6 @@
 
   @include media-breakpoint-down(md) {
     width: 100%;
-    
   }
 }
 

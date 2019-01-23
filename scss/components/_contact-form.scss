@@ -24,7 +24,7 @@
     padding: 0 0;
 
     @include media-breakpoint-up(sm) {
-      margin: 4em auto 1em;
+      margin: 2em auto 2em;
     }
 
     h1,
@@ -87,9 +87,11 @@
       padding-bottom: 1.25em;
     }
 
-    input[type="submit"] {
+    input[type="submit"], input.wpcf7-form-control.wpcf7-submit {
       width: auto;
-      margin-left: 1em;  
+      margin: 0 auto !important;
+      font-size: 11px !important;
+      
     }
 
     p {
@@ -147,7 +149,7 @@
       input[type="text"],
       input[type="email"],
       input[type="tel"],
-      textarea {
+      textarea,  {
         background: rgba(255, 255, 255, 0.5);
         border: 0;
         color: $white;
@@ -170,7 +172,7 @@
         padding-bottom: 1.25em;
       }
 
-      input[type="submit"] {
+      input[type="submit"], input.wpcf7-form-control.wpcf7-submit {
         margin-top: 1em;
         width: 148px;
         margin-left: 0;
@@ -180,7 +182,7 @@
         }
       }
 
-      p {
+      p { 
         margin-bottom: 1.75em;
       }
     }
@@ -368,9 +370,9 @@
       padding-bottom: 1.25em;
     }
 
-    input[type="submit"] {
+    input[type="submit"], input.wpcf7-form-control.wpcf7-submit {
       margin-top: 1em;
-      margin-bottom: 1em;
+      margin-bottom: 1em; 
       margin-left: 0;
       transition: all 0.3s ease-in-out; 
       border: 0;

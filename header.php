@@ -29,34 +29,3 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <div class="landing-bg">
-
-        <!--[if lt IE 7]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser.</p>
-    <p class="browsehappy">Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
-    </p>
-    <![endif]-->
-
-        <div class="top-header <?php if(!is_front_page()) : ?>internal<?php endif; ?>">
-            <div class="container">
-                <div class="v-align row">
-                    <div class="col-xs-12 navbar-button text-center">
-
-                        <a class="navbar-brand d-lg-block d-none" href='<?php echo get_site_url(); ?>'><img src="<?= IMGURL; ?>logo.png"
-                                alt="<?php echo get_bloginfo(
-                                'description'
-                            ); ?>" /></a>
-
-                        <p>
-                            Call Today <a href="tel:18774439828">1-(877)-443-9828</a>
-                        </p>
-
-
-                        <div class="navbar-right d-none d-lg-flex">
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>

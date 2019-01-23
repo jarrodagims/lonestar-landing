@@ -393,6 +393,14 @@
     padding: 2em;
     display: none !important;
   }
+
+  @include media-breakpoint-down(md) {
+    form {
+      .form-group { 
+        padding: 0 2em;
+      }
+    }
+  }
 }
 
 #contact-form {
@@ -433,6 +441,11 @@
   @include media-breakpoint-down(md) {
     padding-top: 0;
     width: 100%;
+
+
+    .contact-bottom {
+      padding: 3em 0;
+    }
   }
 
 

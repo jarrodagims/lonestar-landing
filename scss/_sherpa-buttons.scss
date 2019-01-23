@@ -3,7 +3,7 @@
 //      button-variant($color, $background, $border)
 
 .btn,
-input[type="submit"] {
+input[type="submit"], input.wpcf7-form-control.wpcf7-submit {
   padding: 1em 1.5em;
   font-size: 11px;
   letter-spacing: 1px;
