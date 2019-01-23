@@ -12,7 +12,7 @@
   h2 {
     font-size: 32px;
     font-family: 'Montserrat', sans-serif;
-    margin-bottom: 0;
+    margin-bottom: 1em;
 
     strong {
       color: $sherpa-brand-primary;
@@ -34,8 +34,9 @@
 
   h3 {
     font-size: 16px;
-        display: block;
-        margin-top: .5em;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 2em;
   }
 
   ul.arrows {
@@ -69,6 +70,10 @@
 
   .col:last-child {
     position: relative;
+
+    h2 {
+      margin-bottom: 0.5em;
+    }
 
     ul.arrows {
       padding-left: 0;

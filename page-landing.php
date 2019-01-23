@@ -16,7 +16,7 @@
             <div class="v-align row">
                 <div class="col-xs-12 navbar-button text-center">
 
-                    <a class="navbar-brand d-lg-block d-none" href='<?php echo get_site_url(); ?>'><img
+                    <a class="navbar-brand d-lg-block d-none" href='#'><img
                             src="<?php echo get_template_directory_uri(); ?>/landing/img/build/logo.png"
                             alt="<?php echo get_bloginfo(
                         'description'
@@ -72,7 +72,7 @@
                         <?php if ($_SERVER['REMOTE_ADDR'] == 'localhost') {
                     echo do_shortcode('[contact-form-7 id="11" title="Contact Form"]');
                     } else {
-                    echo do_shortcode('[contact-form-7 id="11" title="Contact Form"]');
+                    echo do_shortcode('[contact-form-7 id="2992" title="Landing Page Contact Form"]');
                     }
                     ?>
 
@@ -173,7 +173,7 @@
 
         <div class="row">
             <div class="col logo-footer">
-                <a class="navbar-brand" href='<?php echo get_site_url(); ?>'><img
+                <a class="navbar-brand" href='#'><img
                         src="<?php echo get_template_directory_uri(); ?>/landing/img/build/logo.png"
                         alt="<?php echo get_bloginfo( 
                                 'description'
