@@ -1,12 +1,15 @@
 .landing-bg {
   background: url("../img/build/bg-landing-hero.jpg") center 0 no-repeat;
   background-size: cover;
-  overflow-x: hidden;
+  overflow-x: hidden; 
 
   padding-bottom: 4em;
 
   @include media-breakpoint-down(md) {
     padding-bottom: 0;
+
+    background: url("../img/build/bg-hero-mobile.jpg") center 0 no-repeat;
+    background-size: cover;
   }
 }
 

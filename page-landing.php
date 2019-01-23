@@ -78,8 +78,8 @@
 
                         <div class="contact-bottom">
                             <p>Call today for more <span class="br-xs">information<span class="br-md">
-                                        about this once in <span class="br-xs">a lifetime
-                                            opportunity.</span></span></span></p>
+                                        about ta lifetime opportunity.
+                                        opportunity.</span></span></span></p>
 
                             <a href="tel:18774439828">1-(877)-443-9828</a>
                         </div>
@@ -98,6 +98,9 @@
         <div class="row">
             <div class="col">
                 <div class="extra-padding">
+
+                    <img src="<?php echo get_template_directory_uri(); ?>/landing/img/build/bg-banner-sm.png"
+                        class="banner d-xs-block d-md-none" alt="Looking To Save More">
                     <ul class="arrows">
                         <li><span>No down payment</span></li>
                         <li><span>No qualifying or credit check</span></li>
@@ -120,12 +123,10 @@
 
             <div class="col">
                 <div class="extra-padding">
-                    <h2>Money back <strong>guarantee!</strong>
-                        <span>
-                            This is the land deal you've been waiting for!
-                        </span>
-
-                    </h2>
+                    <h2>Money back <strong>guarantee!</strong></h2>
+                    <h3>
+                        This is the land deal you've <span class="br-xs">been waiting for!</span>
+                    </h3>
 
 
                     <ul class="arrows">
@@ -137,19 +138,21 @@
                         <li><span>Unspoiled, Breathtaking Mountain Views</span></li>
                     </ul>
 
-                    <h2>What you can do with your land</h2>
+                    <div>
+                        <h2>What you can do with your land</h2>
 
-                    <ul class="columns arrows">
-                        <li><span>Investment</span></li>
-                        <li><span>Hunting</span></li>
-                        <li><span>Farming</span></li>
-                        <li><span>Hiking</span></li>
+                        <ul class="columns arrows">
+                            <li><span>Investment</span></li>
+                            <li><span>Hunting</span></li>
+                            <li><span>Farming</span></li>
+                            <li><span>Hiking</span></li>
 
-                        <li><span>Recreational</span></li>
-                        <li><span>Ranching</span></li>
-                        <li><span>RV’s</span></li>
-                        <li><span>Camping</span></li>
-                    </ul>
+                            <li><span>Recreational</span></li>
+                            <li><span>Ranching</span></li>
+                            <li><span>RV’s</span></li>
+                            <li><span>Camping</span></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -208,9 +211,6 @@
                     <div class="hours">
                         <p>Mon - Fri: 9am - 5pm | Sat - Sun: (Closed)</p><br />
 
-                        <a href="https://www.lonestarinvestments.com/contact/"><button class="btn btn-primary">Buy 20
-                                acres
-                                NOW!</button></a>
                     </div>
                 </div>
             </div>
@@ -219,14 +219,7 @@
 
 
             <div class="col">
-                <ul class="list-inline social-media sm">
-                    <li><a href="http://facebook.com/"
-                            class="facebook-button social-media-button sm square lighten external" target="_blank"><i
-                                class="fab fa-facebook-f fa-fw "><span>Facebook</span></i></a></li>
-                    <li><a href="http://twitter.com/"
-                            class="twitter-button social-media-button sm square lighten external" target="_blank"><i
-                                class="fab fa-twitter fa-fw "><span>Twitter</span></i></a></li>
-                </ul>
+
             </div>
         </div>
     </div>
@@ -236,14 +229,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-                <ul class="list-inline social-media sm">
-                    <li><a href="https://www.facebook.com/openrangeranches/"
-                            class="facebook-button social-media-button sm square lighten external" target="_blank"><i
-                                class="fab fa-facebook-f fa-fw "><span>Facebook</span></i></a></li>
-                    <li><a href="https://twitter.com/Invest_inEP"
-                            class="twitter-button social-media-button sm square lighten external" target="_blank"><i
-                                class="fab fa-twitter fa-fw "><span>Twitter</span></i></a></li>
-                </ul>
+
             </div>
             <div class="col">
                 <p class="small">

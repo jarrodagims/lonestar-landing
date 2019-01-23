@@ -89,7 +89,7 @@
   }
 
   .banner { 
-    margin: 0 auto;
+    margin: 2em auto;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -100,8 +100,14 @@
     flex: 0;
   }
 
+
+
   @include media-breakpoint-down(md) {
     text-align: center;
+
+    .container {
+      padding: 0 0;
+    }
 
 
     h1 {
@@ -138,7 +144,7 @@
       margin: 0 auto 1em;
       justify-content: center;
       flex-direction: column;
-      
+
     }
 
     .btn.btn-lrg, input[type="submit"].btn-lrg {
@@ -150,10 +156,7 @@
     }
 
     .banner {
-      position: relative;
-      margin-top: 2em;
-      max-width: 100%;
-      margin-bottom: 0;
+      display: none;
     }
   }
 

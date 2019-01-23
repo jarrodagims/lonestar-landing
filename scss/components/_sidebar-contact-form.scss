@@ -399,7 +399,10 @@
       .form-group { 
         padding: 0 2em;
       }
+
     }
+
+    
   }
 }
 
@@ -442,6 +445,7 @@
     padding-top: 0;
     width: 100%;
 
+    
 
     .contact-bottom {
       padding: 3em 0;
@@ -455,3 +459,8 @@
   }
 }
 
+
+
+  #contact-form form input[type="text"], #contact-form form input[type="email"], #contact-form form input[type="tel"], #contact-form form textarea {
+    background: #586068 !important;
+  }
