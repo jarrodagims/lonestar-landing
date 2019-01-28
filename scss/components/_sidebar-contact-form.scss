@@ -325,10 +325,17 @@
   }
 }
 
+#contact-form form div.wpcf7-validation-errors, #contact-form form div.wpcf7-acceptance-missing {
+  margin-top: 1em;
+}
+
 
 
 #contact-form {
   padding-top: 37px;
+  overflow: hidden;
+
+  
 
   form {
     h1,
@@ -441,11 +448,21 @@
     }
   }
 
+  @include media-breakpoint-down(sm) {
+     background: transparent;
+
+     form {
+       background: $sherpa-secondary-color;
+     }
+
+    .contact-top {
+      background: rgba(41, 52, 63, 0.4);
+    }
+  }
+
   @include media-breakpoint-down(md) {
     padding-top: 0;
     width: 100%;
-
-    
 
     .contact-bottom {
       padding: 3em 0;

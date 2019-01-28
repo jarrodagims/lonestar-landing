@@ -23,13 +23,13 @@
       
     }
 
-    @include media-breakpoint-up(md) {
-      > span:last-child {
-        font-size: 16px;
-        display: block;
-        margin-top: .5em;
-      }
-    }
+//     @include media-breakpoint-up(md) {
+//       > span:last-child {
+//         font-size: 16px;
+//         display: block;
+//         margin-top: .5em;
+//       }
+//     }
   }
 
   h3 {
@@ -76,7 +76,12 @@
     }
 
     ul.arrows {
-      padding-left: 0;
+      padding-left: 2em;
+
+      li span::before {
+          width: 7px;
+          height: 7px;
+      }
     }
 
     .extra-padding {
@@ -97,8 +102,31 @@
 
   @include media-breakpoint-down(md) {
 
+    h2 {
+      font-size: 28px;
+    }
+
+    ul.arrows {
+      margin-bottom: 2em;
+
+
+      li {
+        margin-bottom: .5em;
+
+        span::before {
+          height: 8px;
+          width: 8px;
+        }
+
+        a {
+          display: block;
+          font-size: 12px;
+        }
+      }
+    }
+
     .banner {
-      margin: 0 auto 2em;
+      margin: 2em auto 2em;
       @include dropshadow();
     }
 
@@ -109,17 +137,20 @@
     .extra-padding {
       padding-left: 15px;
       text-align: center;
-      padding-top: 2em;
+
+      img.bbb {
+        width: 130px;
+      }
     }
 
-    span {
+    > span {
       margin-top: 1.5em;
       line-height: 1.25;
 
       span.br-xs {
         font-size: 18px;
       }
-    } 
+    }  
 
     h2 {
       margin-bottom: 0;
@@ -149,7 +180,7 @@
     }
 
     ul.arrows {
-     padding-left: 3em;
+     padding-left: 2.5em;
     }
 
 
@@ -189,14 +220,17 @@
 
       .extra-padding {
         background: #F4F4F4;
+        padding-top: 3em;
       }
 
       text-align: center;
       margin-top: 2em;
 
-      ul {
+      ul.arrows {
         text-align: left;
+        padding-left: 1em;
       }
+
 
       &::before {
         display: none;

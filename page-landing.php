@@ -23,7 +23,7 @@
                     ); ?>" /></a>
 
                     <p>
-                        Call Today <a href="tel:18774439828">1-(877)-443-9828</a>
+                        Call Today <a href="tel:18778509927">1-(877)-850-9927</a>
                     </p>
 
 
@@ -40,25 +40,29 @@
             <div class="row">
                 <div class="col">
                     <div class="extra-padding">
-                        <h1>
-                            20 ACRES
-                            <span class="large">$18,800 | $0 DOWN | $148/MONTH</span>
-                            <span class="small">Payments start at $148/Month</span>
-                        </h1>
+                        <div class="extra-padding">
+                            <h1>
+                                20 ACRES
+                                <span class="large">$18,800 | $0 DOWN | $148/MONTH</span>
+                                <span class="small">Payments start at $148/Month</span>
+                            </h1>
 
-                        <h2>Anyone can afford land!
-                            <span class="small">Make your dreams come true!</span>
-                        </h2>
+                            <h2>Anyone can afford land!
+                                <span class="small">Make your dreams come true!</span>
+                            </h2>
 
-                        <h3>Lone Star Guarantee</h3>
+                            <h3>Lone Star Guarantee</h3>
 
-                        <p>No explanation needed, no questions asked. If you find you like a <span
-                                class="br-md">particular
-                                part of our subdivision better, we will gladly exchange your <span class="br-md">track
-                                    for
-                                    one that’s available so long as the prices are equal at any time. <span
-                                        class="br-md">Your satisfaction is our number one priority!</span></span></span>
-                        </p>
+                            <p>No explanation needed, no questions asked. If you find you like a <span
+                                    class="br-md">particular
+                                    part of our subdivision better, we will gladly exchange your <span
+                                        class="br-md">track
+                                        for
+                                        one that’s available so long as the prices are equal at any time. <span
+                                            class="br-md">Your satisfaction is our number one
+                                            priority!</span></span></span>
+                            </p>
+                        </div>
                     </div>
 
 
@@ -72,23 +76,26 @@
                         <?php if ($_SERVER['REMOTE_ADDR'] == 'localhost') {
                     echo do_shortcode('[contact-form-7 id="11" title="Contact Form"]');
                     } else {
-                    echo do_shortcode('[contact-form-7 id="2992" title="Landing Page Contact Form"]');
+                      echo do_shortcode('[contact-form-7 id="11" title="Contact Form"]');
+                    //  echo do_shortcode('[contact-form-7 id="2992" title="Landing Page Contact Form"]');
                     }
                     ?>
 
                         <div class="contact-bottom">
-                            <p>Call today for more <span class="br-xs">information<span class="br-md">
-                                        about ta lifetime opportunity.
-                                        opportunity.</span></span></span></p>
+                            <div class="extra-padding">
+                                <p>Call today for more <span class="br-xs">information<span class="br-md">
+                                            about this once in a <span class="br-xs">lifetime
+                                                opportunity.</span></span></span></span></p>
 
-                            <a href="tel:18774439828">1-(877)-443-9828</a>
+                                <a href="tel:18778509927">1-(877)-850-9927</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <img src="<?php echo get_template_directory_uri(); ?>/landing/img/build/bg-banner.png" class="banner"
-            alt="Looking To Save More">
+        <img src="<?php echo get_template_directory_uri(); ?>/landing/img/build/bg-banner.png"
+            class="d-none d-lg-block banner" alt="Looking To Save More">
 
 </div>
 </section>
@@ -100,7 +107,7 @@
                 <div class="extra-padding">
 
                     <img src="<?php echo get_template_directory_uri(); ?>/landing/img/build/bg-banner-sm.png"
-                        class="banner d-xs-block d-md-none" alt="Looking To Save More">
+                        class="banner d-xs-block d-lg-none" alt="Looking To Save More">
                     <ul class="arrows">
                         <li><span>No down payment</span></li>
                         <li><span>No qualifying or credit check</span></li>
@@ -112,12 +119,14 @@
                         <li><span>A+ rating with the Better Business Bureau for more than 25 years</span></li>
                     </ul>
 
-                    <p>Lone Star Investments is a proud member in good standing with the BBB in El Paso, Texas,
-                        maintaining
-                        an A+ rating and has pledged to observe the highest ethical. </p>
+                    <p class="extra-padding">Lone Star Investments is a proud <span class="br-xs">member in good
+                            standing with the BBB in</span> El
+                        Paso, Texas, maintaining an A+ rating and has pledged to observe the highest
+                        ethical standards.</span></span>
+                    </p>
 
                     <img src="<?php echo get_template_directory_uri(); ?>/landing/img/build/bbb.png"
-                        alt="Better Business Bureau">
+                        alt="Better Business Bureau" class="bbb">
                 </div>
             </div>
 
@@ -181,7 +190,7 @@
             </div>
             <div class="col contact-footer">
                 <div><span class="title">Contact our Sales Staff:</span>
-                    <p>Our Professional Sale Staff will assist you with all your questions, land presentations,
+                    <p>Our Professional Sales Staff will assist you with all your questions, land presentations,
                         locations, and documentation of land parcels.</p>
                 </div>
             </div>
@@ -193,8 +202,8 @@
 
                         <div class="hours">
 
-                            <p><a href="tel:18774439828">1 - (877) - 443 - 9828</a><br />
-                                <a href="tel:9155325263">(915) 532-5263</a></p>
+                            <p>Sales: <a href="tel:18778509927">1-(877)-850-9927</a><br />
+                                Office: <a href="tel:18778654648">1-(877)-865-4648</a></p>
                             <p>2126 Montana Ave.<br />
                                 El Paso, TX 79903</p>
                         </div>
@@ -242,3 +251,10 @@
     </div>
 </section>
 <?php wp_footer(); ?>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/fancyboxjquery.js">
+</script>
+<script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

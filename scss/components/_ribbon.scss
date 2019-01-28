@@ -10,4 +10,10 @@
     margin: 0 auto;
     height: 90px;
   }
+
+  @include media-breakpoint-down(md) {
+    img {
+      height: 70px;
+    }
+  }
 }
